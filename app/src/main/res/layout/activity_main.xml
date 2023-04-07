@@ -6,22 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/button"
-        android:text="@string/botao_cadastro"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="144dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/button"
-        app:backgroundTint="@color/button"
-        android:text="@string/botao_cadastro"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="492dp" />
+        android:text="Projeto Layout"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
