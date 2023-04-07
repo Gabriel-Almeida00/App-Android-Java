@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AppNoticias"
-include ':app'
+include ':app', ':lib'
